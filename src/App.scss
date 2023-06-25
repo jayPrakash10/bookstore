@@ -1,0 +1,15 @@
+.bookstore_body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.page_height {
+  min-height: calc(100vh - 105px);
+}
+
+.cursor-pointer {
+  cursor:  pointer !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}

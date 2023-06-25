@@ -1,0 +1,10 @@
+.carousel_img {
+    height: 250px;
+}
+
+@media (max-width: 480px) {
+    .carousel_img {
+        height: unset;
+        aspect-ratio: 2 / 1;
+    }
+}

@@ -1,0 +1,9 @@
+.search_book_container {
+    grid-template-columns: minmax(12rem, 15rem);
+}
+
+@media (max-width: 480px) {
+    .card_container_style {
+        justify-content: start;
+    }
+}

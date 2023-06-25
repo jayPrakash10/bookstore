@@ -1,0 +1,22 @@
+.card_style {
+    width: 15rem !important;
+
+    .card_img_style {
+        width: 100%;
+        aspect-ratio: 7/10;
+    }
+
+    &:hover {
+        .card-text {
+            font-weight: 700 !important;
+        }
+    }
+
+    @media (max-width: 991px) {
+        width: 12rem !important;
+    }
+
+    @media (max-width: 575px) {
+        width: 10rem !important;
+    }
+}
