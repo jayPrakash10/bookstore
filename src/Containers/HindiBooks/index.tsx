@@ -7,12 +7,12 @@ import { languageHindi } from '../../SampleData/HindiBooks'
 const HindiBooks = () => {
     return (
         <Row className='mb-5'>
-            <Row>
+            <Row className='m-0'>
                 <Col>
                     <h5 className='fw-bold'>Hindi Books</h5>
                 </Col>
             </Row>
-            <Row>
+            <Row className='m-0'>
                 <Col xs={12}>
                     <BookCards cardContainerClass={'overflow-auto flex-nowrap'}>
                         {languageHindi.map((data) => 

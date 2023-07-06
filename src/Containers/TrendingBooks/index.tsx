@@ -6,12 +6,12 @@ import { trending } from '../../SampleData/TrendingData/trending';
 const TrendingBooks = () => {
     return (
         <Row className='mb-5'>
-            <Row>
+            <Row className='m-0'>
                 <Col>
                     <h5 className='fw-bold'>Trending Books</h5>
                 </Col>
             </Row>
-            <Row>
+            <Row className='m-0'>
                 <Col xs={12}>
                     <BookCards cardContainerClass={'overflow-auto flex-nowrap'}>
                         {trending.map((data) => 
