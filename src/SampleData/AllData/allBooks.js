@@ -193,17 +193,17 @@ export const allBooks = [
     },
     {
         id: '101',
-        title: "The Great Adventure of Sherlock Holmes",
+        title: "The Adventure of Sherlock Holmes",
         subtitle: "",
-        author: "Arthur Conan Doyle",
-        publisher: "Puffin Classics",
-        url: "https://kbimages1-a.akamaihd.net/15bee909-5e30-4dc2-987c-70a45d88baa2/1200/1200/False/the-great-adventures-of-sherlock-holmes-1.jpg",
-        genre: ["Detective", "Fiction"],
+        author: "Chris Sasaki",
+        publisher: null,
+        url: "https://covers.openlibrary.org/b/id/8355967-M.jpg",
+        genre: ["Detective", "Fiction", "Mystery"],
         language: "English",
         isbn: {
-            isbn13: "9780141332499",
+            isbn13: "9781402712173",
         },
-        description: "From the strange case of 'The Red-Headed League' to the extraordinary tale of 'The Engineer's Thumb', Sherlock Holmes and his assistant Dr Watson grapple with treachery, murder, and ingenious crimes of all kinds. But no case is too challening for the immortal detective's unique power of deduction.",
+        description: "Why does a burglar keep smashing statues of Napoleon? Where is the blue carbuncle? And who is the mysterious Irene Adler? Join Sherlok Holmes and his trusted friend Dr. Watson as they unravel the truth behind these cases and many more.",
         get name() {
             return this.title+" "+this.subtitle;
         },
